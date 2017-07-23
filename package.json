@@ -1,6 +1,6 @@
 {
   "name": "sg-gkzb-base-fe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sg-gkzb-base-fe",
   "main": "dist/index.js",
   "scripts": {
