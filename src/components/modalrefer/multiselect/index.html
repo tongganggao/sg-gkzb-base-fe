@@ -1,0 +1,16 @@
+<style>
+.multi-select .u-tag {
+  margin-right: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+</style>
+<div id="multi_select">
+  <div>
+    <div data-bind="foreach: list" class="multi-select">
+      <span class="u-tag" data-bind="css: { 'u-tag-default': !checked, 'u-tag-info': checked }, text: text, click: function () {$root.select(value)}"></span>
+    </div>
+  </div>
+  <div data-bind="visible: editable">
+  </div>
+</div>

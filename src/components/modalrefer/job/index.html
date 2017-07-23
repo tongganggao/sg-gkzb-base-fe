@@ -1,0 +1,26 @@
+<div id="jobRefer">
+  <div class="u-row">
+    <div class="u-row" style="height: 240px;overflow: auto">
+      <!-- <u-grid params="config:config"></u-grid> -->
+      <u-tree class="form-control" params='data:{model:treemodel,treeSetting:treeOption},
+      umeta:{"id":"tree","data":"model","idField":"id","pidField":"pkParent","nameField":"postName","setting":"treeSetting"}'>
+      </u-tree>
+    </div>
+  </div>
+</div>
+<style>
+  #personrefer .ztree {
+    overflow: hidden;
+  }
+  .u-msg-ok {
+  	background-color: #1da98b;
+    border-color: #1da98b;
+    color: #ffffff;
+  }
+
+  .u-msg-ok :hover {
+  	 background-color: #169274;
+     border-color: #169274;
+     color: #ffffff;
+  }
+</style>
